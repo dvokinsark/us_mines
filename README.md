@@ -1,12 +1,12 @@
 ### Dataset
 
-##### Description
+#### Description
 The Mine dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdiction since 1/1/1970. It includes such information as the current status of each mine (Active, Abandoned, NonProducing, etc.), the current owner and operating company, commodity codes and physical attributes of the mine. Mine ID is the unique key for this data.
 
-##### Source
+#### Source
 The dataset was downloaded from Data.gov site **[here](https://catalog.data.gov/dataset/mines-9f12c)**. It was **last updated on June 1, 2017**. On the page there's no description about variables in the dataset, but after further searching on MSHA's site, the variable definitions file is located **[here](https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines_Definition_File.txt)**.
 
-##### Structure
+#### Structure
 There are 87,596 mines in the dataset. Each mine has 59 attributes. From first glance, it seems like not all variables can be used for the analysis. There's about an even balance between numeric and string variables. About half of variables have a lot of missing information. A number of mines have geo location. Upon further look into the columns with missing values along with a definition table for mine variables, a logical reason comes out why a lot of values are missing. Here's the logic:
 - CURRENT_CONTROLLER_ID, CURRENT_OPERATOR_ID, CURRENT_OPERATOR_ID: If it's a new mine, current controllers and operators may not have been assigned yet.
 - ASSESS_CTRL_NO: the most recent violation or citation and this may not have been tracked at older dates. Also, some newer mines may not have gotten any violations yet.
