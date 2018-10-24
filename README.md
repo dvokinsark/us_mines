@@ -12,6 +12,7 @@ The dataset was downloaded from Data.gov site **[here](https://catalog.data.gov/
 ### Analysis
 * [Exploratory Analysis](https://github.com/dvokinsark/us_mines/blob/master/data_exploration.ipynb)
 * [Explanatory Analysis](https://github.com/dvokinsark/us_mines/blob/master/data_explanation.ipynb)
+* [Dashboard](https://public.tableau.com/profile/dmitry1874#!/vizhome/USMines/Dashboard1?publish=yes)
 
 ### Main Findings
 
