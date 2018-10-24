@@ -10,7 +10,17 @@ The Mine dataset lists all Coal and Metal/Non-Metal mines under MSHA's jurisdict
 The dataset was downloaded from Data.gov site **[here](https://catalog.data.gov/dataset/mines-9f12c)**. It was **last updated on June 1, 2017**. On the page there's no description about variables in the dataset, but after further searching on MSHA's site, the variable definitions file can be found **[here](https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines_Definition_File.txt)**.
 
 ### Analysis
-* [Data Exploration](https://github.com/dvokinsark/us_mines/blob/master/data_exploration.ipynb)
+* [Exploratory Analysis](https://github.com/dvokinsark/us_mines/blob/master/data_exploration.ipynb)
+* [Explanatory Analysis](https://github.com/dvokinsark/us_mines/blob/master/data_explanation.ipynb)
 
-### Contribution
+### Main Findings
+
+- Most active mines have about 10 employees per mine.
+- Nevada and West Virginia employ the highest number of people for mining.
+- Almost all active mining operations are surface mines.
+- Texas, by far, has the most number of active surface mines.
+- A lot of active mines in the dataset are not updated. There're listed active coal surface mines that haven't been updated in decades.
+
+
+### Contributions
 All contributions are welcome. To follow along you would need to fork this repository and create an anaconda environment with the following packages: numpy, pandas, matplotlib, seaborn, and jupyter notebook.
